@@ -1,6 +1,6 @@
 # Olist Data Engineering Pipeline
 
-End-to-end Azure data pipeline built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), following medallion architecture: **Azure Data Factory → ADLS Gen2 → Databricks (Unity Catalog) → Power BI**.
+End-to-end Azure data pipeline built on the [Olist Brazilian E-Commerce dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce), following medallion architecture: **Azure Data Factory → ADLS Gen2 → Databricks (Unity Catalog) → Power BI/Tableau**.
 
 This repository is a working portfolio project. Every stage is documented with the reasoning behind it, including the problems hit along the way and how they were diagnosed.
 
