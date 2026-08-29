@@ -16,7 +16,7 @@ flowchart LR
     RAW -->|"Auto Loader<br/>incremental"| BRONZE["Unity Catalog<br/>olist_catalog.bronze"]
     BRONZE --> SILVER["olist_catalog.silver<br/>(next)"]
     SILVER --> GOLD["olist_catalog.gold<br/>(planned)"]
-    GOLD --> PBI["Power BI<br/>(planned)"]
+    GOLD --> PBI["Power BI/Tableau<br/>(planned)"]
     CP["checkpoint_zone"] -.->|"ingestion state"| BRONZE
 ```
 
